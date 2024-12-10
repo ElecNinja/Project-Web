@@ -700,7 +700,7 @@ nav .special::after{
 }
 
 #photo .title h2{
-    font-family: "Amatic SC", sans-serif;
+    font-family: "Amatic SC";
     font-size: 50px;
 }
 
@@ -801,7 +801,7 @@ nav .special::after{
 #help .mail,
 #help .call ,
 #help .hours{
- width: 95%;     
+ width: 98%;     
 }
 #help .address{
     margin-bottom: 15px;
