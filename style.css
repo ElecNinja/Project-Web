@@ -1127,7 +1127,7 @@ nav .special::after{
     font-weight: 700;
     font-size: 100px;
     font-family: "Amatic SC";
-    color: rgb(245, 240, 116);
+    color: rgb(255, 247, 0);
 }
 .testcontainer{
     display: flex;
