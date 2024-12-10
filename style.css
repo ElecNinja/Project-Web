@@ -1158,7 +1158,7 @@ nav .special::after{
   }
   .testimonial-card:hover {
     transform: scale(1.05);
-    box-shadow: 0px 0px 20px #113f67;
+    box-shadow: 0px 0px 20px #debb1e;
   }
   .testimonial-up {
     width: 100%;
@@ -1177,7 +1177,7 @@ nav .special::after{
     position: relative;
     left: 5%;
     top: -40%;
-    border: 1px solid #113f67;
+    border: 1px solid #debb1e;
   }
   .testimonial-up div:nth-child(2) {
     font-size: 1.5rem;
