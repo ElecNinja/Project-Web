@@ -876,7 +876,7 @@ nav .special::after{
 }
 
 #help .third .one .name{
-    width: 48.7%;
+    width: 46%;
     margin-right: 6px;
     padding: 15px;
     border: 2px solid;
@@ -886,14 +886,23 @@ nav .special::after{
 
 
 #help .third .one .email{
-    width: 48.7%;
+    width: 52.4%;
     padding: 15px;
     border: 2px solid;
     border-radius: 8px;
     outline: none;
 }
+@media only screen and (max-width: 1120px) {
+    #help .third .one .name{
+    width: 48%;
+   
+}
+#help .third .one .email{
+    width: 49.8%;
+}
+}
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 839px) {
     #help .third .one .name,
 #help .third .one .email{
     width: 100%;
@@ -1139,7 +1148,7 @@ nav .special::after{
       width:33%; 
 }
 .testimonial-container {
-    min-height: 500px;
+    height: 500px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1194,7 +1203,7 @@ nav .special::after{
     font-family: sans-serif;
     letter-spacing: 1px;
     color: #113f67;
-    font-size: calc(1.3rem + .6vw);
+    font-size: 27px;
   }
   .testimonial-paragraph p {
     font-family: sans-serif;
@@ -1228,7 +1237,7 @@ nav .special::after{
     }
     .testimonial-paragraph {
       height: 65%;
-      padding: 0.1rem 1rem;
+      padding: 1.8px 16px;
     }
     .testimonial-paragraph h3 {
       margin: 0px 0px 10px;
