@@ -1128,6 +1128,20 @@ nav .special::after{
     font-size: 50px;
     color: #113f67;
 }
+.testcontainer{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+.testcontainer > *{
+     flex-shrink:0; 
+         width:33%; 
+        max-width:100%;
+        padding-right:calc(var(--bs-gutter-x) * .5); 
+        padding-left:calc(var(--bs-gutter-x) * .5); 
+        margin-top:var(--bs-gutter-y);
+}
 .testimonial-container {
     min-height: 500px;
     display: flex;
