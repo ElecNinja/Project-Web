@@ -171,14 +171,14 @@ nav .special::after{
     font-family: "Amatic SC", sans-serif;
     font-size: 65px;
     font-weight: 700;
-    color:RGB(55, 55, 63) ;
+    color:rgb(55, 55, 63) ;
 }
 
 #home p{
     padding-top: 15px;
     padding-bottom: 15px;
     font-family: "Roboto", sans-serif;
-    color: RGB(79, 79, 90);
+    color: rgb(79, 79, 90);
     line-height: 25px;
 }
 
@@ -1125,8 +1125,9 @@ nav .special::after{
     margin: 10px auto 10px auto;
     font-family: sans-serif;
     font-weight: 700;
-    font-size: 50px;
-    color: #113f67;
+    font-size: 100px;
+    font-family: "Amatic SC";
+    color: rgb(245, 240, 116);
 }
 .testcontainer{
     display: flex;
@@ -1136,11 +1137,7 @@ nav .special::after{
 }
 .testcontainer > *{
      flex-shrink:0; 
-         width:33%; 
-        max-width:100%;
-        padding-right:calc(var(--bs-gutter-x) * .5); 
-        padding-left:calc(var(--bs-gutter-x) * .5); 
-        margin-top:var(--bs-gutter-y);
+      width:33%; 
 }
 .testimonial-container {
     min-height: 500px;
@@ -1152,10 +1149,10 @@ nav .special::after{
   }
   .testimonial-card {
     position: relative;
-    box-shadow: #a2a8d3 0px 5px 15px;
+    box-shadow: #eeffb3 0px 5px 15px;
     width: 90%;
     height: 70%;
-    background-image: linear-gradient(#e7eaf6, #113f67 200%);
+    background-image: linear-gradient(#e7eaf6, beige 100%);
     border-radius: 35px;
     transition: 0.4s;
   }
@@ -1197,14 +1194,14 @@ nav .special::after{
     margin: 0px 0px 15px;
     font-family: sans-serif;
     letter-spacing: 1px;
-    color: #113f67;
+    color: #debb1e;
     font-size: calc(1.3rem + .6vw);
   }
   .testimonial-paragraph p {
     font-family: sans-serif-;
     font-size: large;
     font-weight: 500;
-    text-shadow: 0px 0px 2px #e7eaf6;
+    text-shadow: 0px 0px 2px #debb1e;
     color: #113f67;
   }
   @media screen and (max-width: 600px) {
