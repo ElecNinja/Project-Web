@@ -99,10 +99,10 @@ nav .special::after{
 
 #home{
     background-color: rgb(238, 238, 238);
-    padding-top: 100px;
-    padding-bottom: 70px;
+    padding-top: 50px;
+    padding-bottom: 25px;
     width: 100%;
-    height: 855px;
+    /* height: 855px; */
     z-index: -3;
 }
 
@@ -255,8 +255,8 @@ nav .special::after{
 /* start chef */
 
 #chef{
-    margin-top: 120px;
-    margin-bottom: 100px;
+    /* margin-top: 120px; */
+    margin-bottom: 25px;
     font-family: "Roboto", sans-serif;
 
 }
@@ -713,8 +713,8 @@ nav .special::after{
 /* start help */
 
 #help{
-    padding-top: 90px;
-    padding-bottom: 90px;
+    /* padding-top: 90px; */
+    padding-bottom: 25px;
 }
 
 #help .title{
@@ -955,173 +955,17 @@ nav .special::after{
     background-color: rgb(230, 20, 20);
 }
 
-
-/* end help */
-
-#end{
-    margin-top: 90px;
-    font-family: "Roboto", sans-serif;
-    background-color: #000;
-
-}
-
-
-#end .one{
-    background-color: black;
-    width: 24%;
-    color: #fff;
-    margin-right: 10px ;
-}
-
-#end .one .logo{
-    display: flex;
-    align-items: center;
-}
-
-#end .one .logo h2{
-    font-size: 30px;
-    padding-left: 10px;
-}
-
-#end .one p{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 18px;
-    padding-right: 15px;
-    line-height: 30px;
-}
-
-#end .one .link {
-    text-align: center;
-    position: relative;
-}
-
-#end .one .link h3 {
-    font-size: 25px;
-    text-align: center;
-}
-
-#end .one .link ul li  {
-    display: inline-block;
-    padding-top: 20px;
-    font-size: 25px;
-    margin: 30px;
-}
-
-
-#end .two{
-    background-color: 0;
-    width: 49%;
-    color: #fff;
-    overflow: hidden;
-}
-
-#end .two .text h3{
-    font-size: 22px;
-}
-
-
-#end .two .text p{
-    font-size: 18px;
-    padding-right: 25px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-
-}
-
-#end .two .search{
-    padding-bottom: 15px;
-}
-
-#end .two .search .email{
-    width: 80%;
-    padding: 15px;
-}
-
-#end .two .search .click{
-    padding: 16px 21px;
-    color:#fff;
-    background-color: rgb(230, 20, 20);
-    border: none;
-    transition-duration: 0.3s;
-}
-
-
-#end .two .all{
-    display: flex;
-    justify-content: space-between;
-}
-
-#end .two .all .group1{
-    width: 50%;
-}
-
-
-#end .two .all .group2{
-    width: 50%;
-}
-
-#end .two .search .click:hover{
-    background-color: rgb(196, 5, 5);
-}
-
-#end .two .link h3{
-    font-size: 22px;
-    padding-bottom: 20px;
-}
-
-#end .two .link li{
-    padding-bottom: 10px;
-    padding-left: 10px;
-    font-size: 18px;
-    transition-duration: 0.4s;
-}
-
-#end .two .link li:hover{
-    transform: translate(10px , 2px);
-    background-color: rgba(128, 128, 128, 0.329);
-}
-
-/* end two */
-
-#end .three{
-    background-color: #000;
-    width: 24%;
-    color: #fff;
-    margin-left: 15px;
-}
-
-#end .three h3{
-    font-size: 22px;
-    padding-bottom: 20px;
-}
-
-#end .three i{
-    font-size: 30px ;
-    color: rgb(231, 7, 7);
-    margin-right: 20px;
-}
-
-#end .three p{
-    line-height: 50px;
-}
-
-#end .container{
-    width: 70%;
-    margin: auto;
-    display: flex;
-    padding-top: 30px;
-    padding-bottom: 10px;
-}
-
-
-#end .link h3::after{
-    content: '';
-    position: absolute;
+.booking{
+    padding-bottom: 100px;
     width: 100%;
-    width: 4px;
-    background-color: 3fff;
-
+    text-align: center;
+    height: 100px;
+    margin: 10px auto 10px auto;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    font-family: "Amatic SC";
+    color: #113f67;
 }
 
 /* Testimonials Styling */
