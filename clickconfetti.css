@@ -1,0 +1,58 @@
+@keyframes bang {
+	from {
+		transform: translate3d(0,0,0);
+		opacity: 1;
+	}
+}
+
+.click-confetti {
+	position: fixed;
+	animation: bang 700ms ease-out forwards;
+	/* pointer-events: none; */
+}
+
+.click-confetti > i {
+	position: fixed;
+	width: 3px;
+	height: 8px;
+	animation: bang 700ms ease-out forwards;
+	opacity: 0;
+}
+
+/*fireworks*/
+/* .firework img {
+	max-width: min(15vw,15rem);
+} */
+
+
+/*confetti*/
+/* .confetti {
+	background-image: url(confetti2.webp);
+	background-repeat: repeat;
+} */
+/* generic
+.click-confetti {
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: 500;   Ensure it appears above all other content 
+    pointer-events: none;
+}
+
+.click-confetti i {
+    position: absolute;
+    display: block;
+    animation: confetti-fall 0.7s ease-out forwards;
+    pointer-events: none;
+}
+
+@keyframes confetti-fall {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0.5) translateY(50px);
+    }
+} */
