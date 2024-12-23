@@ -709,23 +709,21 @@ width: 50%;
 
 
 /* end photo */
-/* start help */
+/* start Contact Us */
 
 #help{
-    /* padding-top: 90px; */
     padding-bottom: 25px;
 }
 
 #help .title{
     text-align: center;
     padding-bottom: 40px;
-
 }
 
 #help .title h2{
     color: black;
     padding-top: 20px;
-    font-family: "Amatic SC", sans-serif;
+    font-family: "Amatic SC";
     font-size: 50px;
 }
 
@@ -734,7 +732,7 @@ width: 50%;
 }
 
 #help .title p{
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
     color: rgb(127, 127, 144);
 }
 
