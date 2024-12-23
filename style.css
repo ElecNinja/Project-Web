@@ -1,5 +1,5 @@
 
-* , *::after,*::before{
+*{
     padding: 0;
     margin: 0;
     text-decoration: none;
@@ -15,8 +15,7 @@ nav{
     box-shadow: 0 0 4px #000;
     position: sticky;
     top: 0;
-    left: 0;
-    color: rgb(33, 37, 41);
+    left: 0; 
     background-color: #fff;
     z-index: 99;
 }
@@ -24,6 +23,7 @@ nav{
 nav .container{
     margin: auto;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     width: 70%;
     align-items: center;
@@ -40,14 +40,8 @@ nav h2 span{
     color: rgb(230, 20, 20);
 }
 
-nav .group{
-    align-items: center;
-}
-
-
 nav ul{
     display: flex;
-    color: #fff;
 }
 
 nav ul li{
@@ -55,9 +49,8 @@ nav ul li{
 }
 
 nav ul li a{
-    color: #fff;
     font-size: 17px;
-    font-weight: 600px;
+    font-weight: 400;
     position: relative;
     color: rgb(33, 37, 41);
 
@@ -65,7 +58,6 @@ nav ul li a{
 
 nav .special{
     position: relative;
-    color: #000;
     font-weight: 600;
 }
 
@@ -76,7 +68,7 @@ nav li a::after{
     height: 3px;
     background-color: rgb(230, 20, 20);
     top: 23px;
-    left: 0;
+    left: 0px;
     transition: 0.3s;
 }
 
@@ -100,10 +92,8 @@ nav .special::after{
 #home{
     background-color: rgb(238, 238, 238);
     padding-top: 50px;
-    padding-bottom: 25px;
     width: 100%;
     height: 100vh;
-    z-index: -3;
 }
 
 #home .container{
@@ -122,7 +112,6 @@ nav .special::after{
 
 
 
-
    
 @keyframes movepic{
     0%{
@@ -130,45 +119,45 @@ nav .special::after{
     }
 
     10%{
-        transform: translate(-1px , -2px) rotate(-1deg);
+        transform: translate(-1px , -1px) rotate(-1deg);
     }
     20%{
         transform: translate(-3px,0px) rotate(0deg);
     }
     30%{
-        transform: translate(3px , 2px) rotate(0deg);
+        transform: translate(3px , 0px) rotate(1deg);
     }
     40%{
-        transform: translate(1px , -1px) rotate(-1deg);
+        transform: translate(1px , -1px) rotate(0deg);
     }
     50%{
-        transform: translate(-1px , 2px) rotate(-1px);
+        transform: translate(-1px , 1px) rotate(-1deg);
     }
 
     60%{
-       transform: translate(-3px , 1px) rotate(-1deg); 
+       transform: translate(-3px , 1px) rotate(0deg); 
     }
 
     70%{
-        transform: translate(3px , 1px) rotate(-1deg);
+        transform: translate(3px , 1px) rotate(1deg);
     }
 
     80%{
-        transform: translate(-1px , -1px) rotate(1deg); 
+        transform: translate(-1px , -1px) rotate(0deg); 
     }
 
     90%{
-        transform: translate(1px , 2px) rotate(0deg);
+        transform: translate(1px , 1px) rotate(0deg);
     }
 
     100%{
-        transform: translate(1px , -2px) rotate(-1deg);
+        transform: translate(1px , -1px) rotate(-1deg);
     }
 
 }
 
 #home h2{
-    font-family: "Amatic SC", sans-serif;
+    font-family: "Amatic SC";
     font-size: 65px;
     font-weight: 700;
     color:rgb(55, 55, 63) ;
@@ -192,15 +181,13 @@ nav .special::after{
     padding: 15px 25px;
     color: #fff;
     border: none;
+    /* top right  bottom left */
     border-radius: 0px 20px 20px 20px;
     transition-duration: 0.4s;
-    margin-right: 20px;
+    margin-right: 50px;
     cursor: pointer;
 }
 
-#home .click a{
-    margin-left: 30px;
-}
 
 #home .click button:hover{
     background-color: rgb(231, 7, 7);
@@ -217,35 +204,19 @@ nav .special::after{
 
 #home .click a div{
     margin-right: 20px;
-    position: relative;
-    z-index: 2;
 }
 
-
-#home .click a div::before{
-    width: 60px;
-    height: 60px;
-    background-color: blue;
-    content: '';
-    position: absolute;
-    z-index: -2;
-    top: -20px;
-    left: -22px;
+.video{
+    background-color: rgb(196, 5, 5);
+    padding: 10px;
     border-radius: 50%;
-    background: linear-gradient(to right , rgb(196, 5, 5) 50% , #00000000 50% 100%) ;
+}
+.click a div i{
+    font-size: 30px;
+    color: #fff;
+    padding-left: 5px;
 }
 
-#home .click a div::after{
-    width: 40px;
-    height: 40px;
-    background-color: #fff;
-    content: '';
-    top: -10px;
-    left: -14px;
-    border-radius: 50%;
-    z-index: -1;
-    position: absolute;
-}
 
 #home .click a:hover{
     color: red;
@@ -796,17 +767,7 @@ nav .special::after{
     margin-right: 10px;
     margin-top: 10px;
 }
-@media only screen and (max-width: 1078px){
-    #help .address,
-#help .mail,
-#help .call ,
-#help .hours{
- width: 98%;     
-}
-#help .address{
-    margin-bottom: 15px;
-}
-}
+
 
 
 
@@ -869,14 +830,13 @@ nav .special::after{
 /* end second */
 
 #help .third{
-    margin-top: 40px ;
-    overflow: hidden;
+    margin-top: 40px;
     box-shadow: 0 0 10px #00000023;
     padding: 20px;
 }
 
 #help .third .one .name{
-    width: 46%;
+    width: 45%;
     margin-right: 6px;
     padding: 15px;
     border: 2px solid;
@@ -892,26 +852,8 @@ nav .special::after{
     border-radius: 8px;
     outline: none;
 }
-@media only screen and (max-width: 1120px) {
-    #help .third .one .name{
-    width: 48%;
-   
-}
-#help .third .one .email{
-    width: 49.8%;
-}
-}
 
-@media only screen and (max-width: 839px) {
-    #help .third .one .name,
-#help .third .one .email{
-    width: 100%;
-    /* padding: 15px; */
-}
-#help .third .one .name{
-    margin-bottom: 15px;
-}
-}
+
 
 
 
@@ -956,13 +898,7 @@ nav .special::after{
 }
 
 .booking{
-    padding-bottom: 100px;
-    width: 100%;
     text-align: center;
-    height: 100px;
-    margin: 10px auto 10px auto;
-    font-family: sans-serif;
-    font-weight: 700;
     font-size: 100px;
     font-family: "Amatic SC";
     color: #113f67;
