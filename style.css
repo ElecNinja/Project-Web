@@ -234,19 +234,21 @@ width: 50%;
     color: #0d60a8;
 }
 
-#home .date {
+#home .date{
     background-color: rgba(83, 83, 83, 0.575);
-    color: #403737;
-    text-align: center;
     padding: 20px;
     display: flex;
-    flex-wrap: wrap;
-    /* position: absolute;
-    bottom: 0;
-    left: 0; */
+    justify-content: center;
     width: 100%;
+    border-radius: 8px;
+    margin-top: 50px;
 }
-
+#home .date p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+}
 
 /* end home */
 /* start chef */
