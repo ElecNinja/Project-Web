@@ -874,30 +874,22 @@ table{
     width: 100%;
     padding-top: 20px;
   }
-
-.anchor{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    width: 60%;
-    margin: auto;
-}
-#help .anchor a{
-    font-size: 20px;
-    color: #000;
-    font-weight: 600;
-    padding: 10px;
-    width: 100%;
-}
 /* end second */
 
-#help .third{
+.booking{
+    text-align: center;
+    font-size: 100px;
+    font-family: "Amatic SC";
+    color: #113f67;
+}
+
+#book .third{
     margin-top: 40px;
     box-shadow: 0 0 10px #00000023;
     padding: 20px;
 }
 
-#help .third .one .name{
+#book .third .one .name{
     width: 45%;
     margin-right: 6px;
     padding: 15px;
@@ -907,7 +899,7 @@ table{
 }
 
 
-#help .third .one .email{
+#book .third .one .email{
     width: 52.4%;
     padding: 15px;
     border: 2px solid;
@@ -919,7 +911,7 @@ table{
 
 
 
-#help .third .two .sub{
+#book .third .two .sub{
     width: 100%;
     padding: 15px;
     margin-top: 15px;
@@ -929,7 +921,7 @@ table{
 }
 
 
-#help .third .three textarea{
+#book .third .three textarea{
     width: 100%;
     margin-top: 15px;
     border: 2px solid;
@@ -939,13 +931,13 @@ table{
     resize: none;
 } 
 
-#help .third .button{
+#book .third .button{
     margin-top: 40px;
     text-align: center;
 } 
 
 
-#help .third .button button{
+#book .third .button button{
     padding: 15px 45px ;
     background-color: #113f67;
     color: #fff;
@@ -955,15 +947,8 @@ table{
     cursor: pointer;
 }
 
-#help .third .button button:hover{
+#book .third .button button:hover{
     background-color:  #0d60a8;
-}
-
-.booking{
-    text-align: center;
-    font-size: 100px;
-    font-family: "Amatic SC";
-    color: #113f67;
 }
 
 /* Testimonials Styling */
