@@ -1,7 +1,7 @@
 function execute_fireworks(firework) {
     // Set the trail and explosion file paths
-    const trailFile = "./firework-trail.webp";
-    const explosionFile = "./firework-explosion.webp";
+    const trailFile = "Extra/firework-trail.webp";
+    const explosionFile = "Extra/firework-explosion.webp";
 
     // Function to randomize position
     const randomizePosition = () => {
